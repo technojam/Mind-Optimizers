@@ -23,9 +23,9 @@
     top: 0;
     background: #ff6e7f;
     /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #4682B4, #ff6e7f);
+    background: -webkit-linear-gradient(to right,#B5EAEA, #E93B81);
     /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #4682B4, #ff6e7f);
+    background: linear-gradient(to right, #B5EAEA, #E93B81);
     position: fixed;
     z-index: 10;
     box-shadow: 0 .5rem 1rem rgba(0, 0, 0, 0.1);
