@@ -1,12 +1,30 @@
+/****** pre-loader ******/
 
 
+.browse-tip{
+   
+  
+  }
+.preloader{
+padding-top: 20rem;
+position: absolute;
+background-image: linear-gradient(#c6f5f5,#fbaccc);
+height: 100%;
+width: 100%;
+text-align: center;
+    z-index:999 !important;
+}
+
+
+
+  
 /****** NAV-BAR ******/
 
 .navbar-brand {
     font-size: 2.5rem;
     font-weight: bold;
     font-family: "Ubuntu";
-    margin-left: 6rem;
+    margin-left: 2.5rem;
     color: rgb(255, 255, 255);
 }
 
@@ -27,7 +45,7 @@
     /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to right, #B5EAEA, #E93B81);
     position: fixed;
-    z-index: 10;
+   
     box-shadow: 0 .5rem 1rem rgba(0, 0, 0, 0.1);
 }
 
@@ -64,7 +82,7 @@
     width: 240px;
     height: 160px;
     margin: -40px 23px;
-    margin-left: -5px;
+    margin-left: -50px;
     margin-right: -130px;
     margin-bottom: -42px;
 }
