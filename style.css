@@ -1,0 +1,75 @@
+
+
+/****** NAV-BAR ******/
+
+.navbar-brand {
+    font-size: 2.5rem;
+    font-weight: bold;
+    font-family: "Ubuntu";
+    margin-left: 6rem;
+    color: rgb(255, 255, 255);
+}
+
+.navbar-brand:hover {
+    transform: scale(1.04);
+    color: #a00505;
+    transition: 0.8s;
+}
+
+.navbar {
+    padding: 0 0 0.3rem;
+    right: 0;
+    left: 0;
+    top: 0;
+    background: #ff6e7f;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right,#B5EAEA, #E93B81);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #B5EAEA, #E93B81);
+    position: fixed;
+    z-index: 10;
+    box-shadow: 0 .5rem 1rem rgba(0, 0, 0, 0.1);
+}
+
+.navbar-nav {
+    margin-right: 5rem;
+}
+
+.nav-item {
+    padding: 0 1.5rem;
+}
+
+.nav-item:hover {
+    transform: scale(1.1);
+    transition: 0.2s;
+}
+
+.nav-link {
+    border-radius: 30px;
+    font-size: 1.1rem;
+    font-weight: 600;
+    text-decoration: none;
+    color: #fff;
+    text-align: center;
+}
+
+.nav-link:hover {
+    background: #e91e63;
+    box-shadow: inset 5px 5px 10px #5d0c28, inset -5px -5px 10px #ff309e;
+    border-radius: 30px !important;
+    color: white;
+}
+
+.navbarlogo {
+    width: 240px;
+    height: 160px;
+    margin: -40px 23px;
+    margin-left: -5px;
+    margin-right: -130px;
+    margin-bottom: -42px;
+}
+
+.navbarlogo:hover {
+    cursor: pointer;
+}
+
