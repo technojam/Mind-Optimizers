@@ -1,6 +1,5 @@
-<h1 align="center">Code Red</h1>
+<h1 align="center">Code Red <img  width="100" height="80" src="https://github.com/technojam/Mind-Optimizers/blob/main/assets/logo.gif"/></h1>
 <h3 align="center">Let's join in together and break the myths and taboos about mensturuation </h3>
-
 
 <div align="center">
 
