@@ -14,6 +14,8 @@ z-index:999 !important;
 
 
 
+
+
   
 /****** NAV-BAR ******/
 
@@ -167,6 +169,11 @@ z-index:999 !important;
     z-index: 1;
     position: relative;
     background-color: #fffed5;
+    background: #ff6e7f;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #B5EAEA, #E93B81);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #B5EAEA, #E93B81);
 }
 
 .secf {
@@ -254,7 +261,7 @@ z-index:999 !important;
 }
 
 .flip-card-front {
-    background-color: lavenderblush;
+    background-color: rgb(255, 249, 251);
     color: purple;
 }
 
@@ -270,15 +277,15 @@ z-index:999 !important;
 }
 
 #icon1 {
-    color: #cbfd17;
+    color: palevioletred;
 }
 
 #icon2 {
-    color: #69c4fd;
+    color: purple;
 }
 
 #icon3 {
-    color: red;
+    color: powderblue;
 }
 
 p {
