@@ -1,7 +1,7 @@
 document.addEventListener("DOMContentLoaded", function(){
     setTimeout(function(){
       showImage();
-      setInterval(hideImage, 4000);
+      setInterval(hideImage, 1000);
     });
   });
   function hideImage(){
