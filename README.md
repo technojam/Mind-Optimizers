@@ -8,7 +8,12 @@
 ![contributions welcome](https://img.shields.io/static/v1.svg?label=Contributions&message=Welcome&color=brightgreen&style=flat&logo=github)&nbsp;
 ![first-timers-only](https://img.shields.io/badge/first--timers--only-friendly-blue.svg?style=flat)
 ![helping-hand](https://img.shields.io/website-up-down-green-red/http/shields.io.svg?color=blue)
-
+#### Features:
+1. Menstrual cycle tracker
+2. Diet myths and facts 
+3. Symptoms, Precautions and Remedies
+4. Chat forum to contact medical advisor
+5. Awareness on vaginal infections, breast cancer and cervical cancer
 
 </div>
 
