@@ -1,5 +1,9 @@
 /****** pre-loader ******/
 
+body{
+overflow: hidden;
+}
+
 .preloader{
 padding-top: 20rem;
 position: absolute;
