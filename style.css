@@ -757,7 +757,7 @@ p {
     }
 }
 
-/*** Title images adjustmest according to screen size ***/
+/*** Title images adjustment according to screen size ***/
 
 @media screen and (max-width: 1377px) {
     .title-image1 {
@@ -787,3 +787,4 @@ p {
     }
 
 }
+
