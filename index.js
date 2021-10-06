@@ -11,3 +11,6 @@ document.addEventListener("DOMContentLoaded", function(){
   function showImage(){
     document.getElementById( "imgHideShow" ).style.display = "block" ;
   }
+  $(document).ready(function () {
+    $(".tooltip-text").tooltip({container:'body'});
+  });
