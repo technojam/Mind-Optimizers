@@ -1,54 +1,53 @@
 /****** pre-loader ******/
 
-.preloader{
-padding-top: 20rem;
-position: absolute;
-background-image: linear-gradient(#c6f5f5,#fbaccc);
-height: 100%;
-width: 100%;
-text-align: center;
-z-index:999 !important;
+.preloader {
+    padding-top: 20rem;
+    position: absolute;
+    background-image: linear-gradient(#c6f5f5, #fbaccc);
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    z-index: 999 !important;
 }
- /* ******Scroll-Button****** */
 
- #button {
+
+/* ******Scroll-Button****** */
+
+#button {
     display: none;
-    background-color:#063ffc6c;
+    background-color: #063ffc6c;
     width: 50px;
     height: 50px;
-    line-height:60px;
+    line-height: 60px;
     text-align: center;
     border-radius: 4px;
     position: fixed;
     bottom: 30px;
     right: 30px;
-    transition: background-color .3s, 
-    opacity .5s, visibility .5s;ssssss
-    opacity: 0;
+    transition: background-color .3s, opacity .5s, visibility .5s;
+    ssssss opacity: 0;
     z-index: 1000;
-  }
-  
-  #button i{
-    font-size:32px;
-    color:white;
-  }
-  
-  
-  
-  #button:hover {
+}
+
+#button i {
+    font-size: 32px;
+    color: white;
+}
+
+#button:hover {
     cursor: pointer;
     background-color: #333;
-  }
-  
-  #button.show {
-    opacity: 1;
-  }
+}
 
-  
+#button.show {
+    opacity: 1;
+}
+
+
 /****** NAV-BAR ******/
 
 .navbar-brand {
-    font-size: 2.5rem;
+    font-size: 4.5rem;
     font-weight: bold;
     font-family: "Ubuntu";
     margin-left: 2.5rem;
@@ -68,11 +67,10 @@ z-index:999 !important;
     top: 0;
     background: #ff6e7f;
     /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right,#B5EAEA, #E93B81);
+    background: -webkit-linear-gradient(to right, #B5EAEA, #E93B81);
     /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to right, #B5EAEA, #E93B81);
     /* position: fixed; */
-   
     box-shadow: 0 .5rem 1rem rgba(0, 0, 0, 0.1);
 }
 
@@ -118,7 +116,9 @@ z-index:999 !important;
     cursor: pointer;
 }
 
+
 /****** TITLE  SECTION ******/
+
 #title {
     /*background-color: gray;*/
     background: #ff6e7f;
@@ -135,7 +135,6 @@ z-index:999 !important;
     line-height: 1.5;
     font-weight: bold;
     /* font-family: 'Cedarville Cursive', cursive; */
-
 }
 
 .title-image {
@@ -151,11 +150,9 @@ z-index:999 !important;
     margin: 5% 3% 5% 0;
 }
 
-
-
 .title-image {
-     /* filter: url(filters.svg#grayscale); Firefox 3.5+ */
-     filter: gray;
+    /* filter: url(filters.svg#grayscale); Firefox 3.5+ */
+    filter: gray;
     /* IE5+ */
     -webkit-filter: grayscale(1);
     /* Webkit Nightlies & Chrome Canary */
@@ -171,7 +168,7 @@ z-index:999 !important;
 
 .title-image1 {
     /* filter: url(filters.svg#grayscale); Firefox 3.5+ */
-      filter: gray;
+    filter: gray;
     /* IE5+ */
     -webkit-filter: grayscale(1);
     /* Webkit Nightlies & Chrome Canary */
@@ -187,7 +184,7 @@ z-index:999 !important;
 
 .title-image2 {
     /* filter: url(filters.svg#grayscale); Firefox 3.5+ */
-      filter: gray;
+    filter: gray;
     /* IE5+ */
     -webkit-filter: grayscale(1);
     /* Webkit Nightlies & Chrome Canary */
@@ -204,7 +201,6 @@ z-index:999 !important;
 .title-image1:hover,
 .title-image:hover,
 .title-image2:hover {
-    
     filter: none;
     -webkit-filter: grayscale(0);
     -webkit-transform: scale(1.01);
@@ -213,6 +209,7 @@ z-index:999 !important;
 
 
 /****** FEATURES ******/
+
 #features {
     padding: 7% 6%;
     z-index: 1;
@@ -345,7 +342,9 @@ p {
     font-size: 1.3rem;
 }
 
+
 /*********** Footer **********/
+
 footer {
     position: relative;
     width: 100%;
@@ -548,7 +547,6 @@ p {
     border-right-color: #F7F9F8;
     border-left-color: #F7F9F8;
 }
-
 
 
 /* Animated heading border */
@@ -792,6 +790,7 @@ p {
     }
 }
 
+
 /*** Title images adjustmest according to screen size ***/
 
 @media screen and (max-width: 1377px) {
@@ -812,13 +811,12 @@ p {
 }
 
 @media screen and (max-width: 870px) {
-    .title-image1, .title-image {
-        position : static;
+    .title-image1,
+    .title-image {
+        position: static;
         padding: 35px 0;
         margin: 0px;
         width: 100%;
         height: 50%;
-
     }
-
 }
