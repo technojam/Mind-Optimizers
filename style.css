@@ -822,3 +822,18 @@ p {
     }
 
 }
+
+.quiz-btn, .quiz-btn a{
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 5px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    margin: 2px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    text-decoration: none;
+}
