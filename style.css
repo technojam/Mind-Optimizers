@@ -136,6 +136,9 @@ z-index:999 !important;
     font-weight: bold;
     /* font-family: 'Cedarville Cursive', cursive; */
 
+    text-shadow: -2px 2px 0px #E93B81,
+                 -3px 3px 0px #db94b0;
+
 }
 
 .title-image {
