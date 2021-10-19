@@ -1,0 +1,67 @@
+body{
+    background: linear-gradient(to right,#B5EAEA, #E93B81);
+}
+.container{
+    width: 80%;
+    background-color:rgba(248, 244, 247, 0.6);
+    border-radius: 2rem;
+    padding:  1rem 2rem;
+    margin: auto;
+    margin-top: 2rem;
+    box-shadow: 0px 0px 9px black;
+}
+h1{
+    font-size: 3rem;
+    text-shadow: 0px 0px 4px black;
+}
+h3{
+    font-size: 2rem;
+}
+h1, h3{
+    text-align: center;
+}
+.quiz-container{
+    width:70%;
+    margin: auto;
+    background-color: rgba(114, 81, 107, 0.3);
+    border-radius: 0.5rem;
+    padding: 0.8rem;
+    box-shadow: 0px 0px 5px rgb(115, 61, 117);
+}
+.image-container img{
+   display: block;
+   margin: auto;
+   filter:contrast(100%);
+}
+.option-container{
+    padding-top: 1rem;
+    width: 40%;
+    margin: auto;
+}
+.option-container label{
+    display: block;
+    padding:0.7rem;
+    font-size: 1.5rem;
+}
+button{
+    display: block;
+    margin: auto;
+    padding:0.4rem;
+    border-radius: 0.3rem;
+    margin-top: 0.9rem;
+    cursor: pointer;
+    filter: drop-shadow(0px 0px 4px rgb(158, 16, 116));
+    font-size: larger;
+}
+button:hover{
+    background-color: rgb(128, 52, 90);
+}
+.otp{
+    width:100px;
+    margin: auto;
+    margin-top: 1rem;
+    background-color: rgba(248, 244, 247, 0.6);
+    border-radius: 1rem;
+    text-align: center;
+    padding:2rem;
+}
